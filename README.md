@@ -1,4 +1,4 @@
-**These script deal with files containing large amount of sequences that take a long time to BLAST**
+#These script deal with files containing large amount of sequences that take a long time to BLAST#
 
 
 **Divide assembled transcripts into many many files, Need to change fasta file name in the script:**
