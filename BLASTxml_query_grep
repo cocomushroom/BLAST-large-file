@@ -1,0 +1,12 @@
+for f in `ls *NROut`:
+do 
+echo $f
+grep -Pn "\<Iteration_query-def.*\n.*\n\<Iteration_hits\>\n\<Hit\>\n.*\<Hit_num\>1\<" $f | grep -o comp.*seq[0-9]* 
+done
+
+
+for f in `ls *NROut`; 
+do  
+	echo ${f}; 
+	grep -Pn "\<Iteration_query-def.*\n.*\n\<Iteration_hits\>\n\<Hit\>\n.*\<Hit_num\>1\<" ${f} | grep -o comp.*seq[0-9]* >> migouFile; 
+done 
