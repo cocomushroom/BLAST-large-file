@@ -12,7 +12,7 @@ python split_bigfile.py
 
 ./ subMultiBLAST.sh
 
-**After all the BLASTed search, the results are saved in .xml format in .NROut files, extract the transcripts that BLASTED to FungalNR database, When ran on slurm Cluster: **
+**After all the BLASTed search, the results are saved in .xml format in .NROut files, extract the transcripts that BLASTED to FungalNR database, When ran on slurm Cluster:**
 
 
 sbatch List_BLAST.sh
